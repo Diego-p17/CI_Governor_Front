@@ -9,6 +9,10 @@ import { LoginComponent } from './pages/login/login.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { CardsComponent } from './components/cards/cards.component';
+import { OrganizationComponent } from './pages/organization/organization.component';
+import { ListItemsComponent } from './components/list-items/list-items.component';
+import { OrganizationListComponent } from './pages/organization-list/organization-list.component';
+import { PageListTemplateComponent } from './pages/page-list-template/page-list-template.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { CardsComponent } from './components/cards/cards.component';
     LoginComponent,
     NotFoundComponent,
     DashboardComponent,
-    CardsComponent
+    CardsComponent,
+    OrganizationComponent,
+    ListItemsComponent,
+    OrganizationListComponent,
+    PageListTemplateComponent
   ],
   imports: [
     BrowserModule,
